@@ -12,6 +12,7 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 import javax.swing.BoxLayout;
+import javax.swing.JTextField;
 
 /**
  * This class is a simple application that writes a random number on a file.
@@ -27,6 +28,7 @@ public class MiniGUI {
     private static final int PROPORTION = 5;
     private final Random randomGenerator = new Random();
     private final JFrame frame = new JFrame(TITLE);
+    private final JTextField resultField = new JTextField();
 
     /**
      * Creates a new {@link MiniGUI}.
@@ -38,7 +40,9 @@ public class MiniGUI {
         final JPanel centerPanel = new JPanel();
         centerPanel.setLayout(new BoxLayout(centerPanel, BoxLayout.X_AXIS));
         centerPanel.add(write);
-        canvas.add(write, BorderLayout.CENTER);
+
+        resultField.setEditable(false);
+        canvas.add(resultField, BorderLayout.NORTH);
         frame.setContentPane(canvas);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         /*
