@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-11T13:38:32.486">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-11T14:33:04.935">
 <file name="/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/81-simple-gui/src/main/java/it/unibo/mvc/MiniGUI.java">
-<violation beginline="44" endline="44" begincolumn="17" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="it.unibo.mvc" class="MiniGUI" method="actionPerformed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="it.unibo.mvc" class="MiniGUI" method="actionPerformed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 Usage of System.out/err
 </violation>
 </file>
