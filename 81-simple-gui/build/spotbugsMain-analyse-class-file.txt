@@ -1,0 +1,2 @@
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/81-simple-gui/build/classes/java/main/it/unibo/mvc/MiniGUI$1.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/81-simple-gui/build/classes/java/main/it/unibo/mvc/MiniGUI.class
