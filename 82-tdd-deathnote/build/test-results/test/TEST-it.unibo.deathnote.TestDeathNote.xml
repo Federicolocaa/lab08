@@ -1,75 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unibo.deathnote.TestDeathNote" tests="13" skipped="0" failures="8" errors="0" timestamp="2025-11-12T10:39:50.048Z" hostname="Mac.station" time="6.297">
+<testsuite name="it.unibo.deathnote.TestDeathNote" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-11-12T11:27:01.763Z" hostname="Mac.station" time="6.29">
   <properties/>
-  <testcase name="testSetDetailsWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.027">
-    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'
-	at it.unibo.deathnote.impl.DeathNoteImpl.writeDetails(DeathNoteImpl.java:59)
-	at it.unibo.deathnote.TestDeathNote.testSetDetailsWithinTime(TestDeathNote.java:138)
-</failure>
-  </testcase>
-  <testcase name="testWriteName()" classname="it.unibo.deathnote.TestDeathNote" time="0.006"/>
-  <testcase name="testRuleNegativeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.003"/>
-  <testcase name="testSetDetailsBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.007">
-    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
-	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
-	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
-	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
-	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
-	at app//it.unibo.deathnote.TestDeathNote.testSetDetailsBeforeNameThrowsException(TestDeathNote.java:119)
-Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'
-	at it.unibo.deathnote.impl.DeathNoteImpl.writeDetails(DeathNoteImpl.java:59)
-	at it.unibo.deathnote.TestDeathNote.lambda$testSetDetailsBeforeNameThrowsException$4(TestDeathNote.java:120)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
-	... 3 more
-</failure>
-  </testcase>
-  <testcase name="testValidRulesAreNotBlank()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
-  <testcase name="testDefaultDetailsAreEmpty()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'getDeathDetails'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'getDeathDetails'
-	at it.unibo.deathnote.impl.DeathNoteImpl.getDeathDetails(DeathNoteImpl.java:71)
-	at it.unibo.deathnote.TestDeathNote.testDefaultDetailsAreEmpty(TestDeathNote.java:128)
-</failure>
-  </testcase>
-  <testcase name="testSetCauseAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="0.106">
-    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'
-	at it.unibo.deathnote.impl.DeathNoteImpl.writeDeathCause(DeathNoteImpl.java:53)
-	at it.unibo.deathnote.TestDeathNote.testSetCauseAfterTimeFails(TestDeathNote.java:112)
-</failure>
-  </testcase>
-  <testcase name="testRuleTooLargeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
-  <testcase name="testDefaultCauseIsHeartAttack()" classname="it.unibo.deathnote.TestDeathNote" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'getDeathCause'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'getDeathCause'
-	at it.unibo.deathnote.impl.DeathNoteImpl.getDeathCause(DeathNoteImpl.java:65)
-	at it.unibo.deathnote.TestDeathNote.testDefaultCauseIsHeartAttack(TestDeathNote.java:90)
-</failure>
-  </testcase>
-  <testcase name="testSetDetailsAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="6.116">
-    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'
-	at it.unibo.deathnote.impl.DeathNoteImpl.writeDetails(DeathNoteImpl.java:59)
-	at it.unibo.deathnote.TestDeathNote.testSetDetailsAfterTimeFails(TestDeathNote.java:151)
-</failure>
-  </testcase>
-  <testcase name="testRuleZeroThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.01"/>
-  <testcase name="testSetCauseWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'
-	at it.unibo.deathnote.impl.DeathNoteImpl.writeDeathCause(DeathNoteImpl.java:53)
-	at it.unibo.deathnote.TestDeathNote.testSetCauseWithinTime(TestDeathNote.java:99)
-</failure>
-  </testcase>
-  <testcase name="testSetCauseBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.004">
-    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
-	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
-	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
-	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
-	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
-	at app//it.unibo.deathnote.TestDeathNote.testSetCauseBeforeNameThrowsException(TestDeathNote.java:81)
-Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'
-	at it.unibo.deathnote.impl.DeathNoteImpl.writeDeathCause(DeathNoteImpl.java:53)
-	at it.unibo.deathnote.TestDeathNote.lambda$testSetCauseBeforeNameThrowsException$3(TestDeathNote.java:82)
-	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
-	... 3 more
-</failure>
-  </testcase>
+  <testcase name="testSetDetailsWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.025"/>
+  <testcase name="testWriteName()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
+  <testcase name="testRuleNegativeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
+  <testcase name="testSetDetailsBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
+  <testcase name="testValidRulesAreNotBlank()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
+  <testcase name="testDefaultDetailsAreEmpty()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
+  <testcase name="testSetCauseAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="0.119"/>
+  <testcase name="testRuleTooLargeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
+  <testcase name="testDefaultCauseIsHeartAttack()" classname="it.unibo.deathnote.TestDeathNote" time="0.015"/>
+  <testcase name="testSetDetailsAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="6.107"/>
+  <testcase name="testRuleZeroThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.004"/>
+  <testcase name="testSetCauseWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
+  <testcase name="testSetCauseBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

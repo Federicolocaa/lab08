@@ -10,23 +10,12 @@ import it.unibo.deathnote.api.DeathNote;
  */
 public final class DeathNoteImpl implements DeathNote {
 
-    
     private final Map<String, DeathData> notebook = new HashMap<>();
+    private static final int CAUSE_TIMEOUT = 40;
+    private static final int DETAILS_TIMEOUT = 6040;
 
     // Lo uso per ricordami del nome
-    private String lastWrittenName = null;
-
-    private static class DeathData {
-        String cause;
-        String details;
-        final long writeTime;
-
-        DeathData() {
-            this.writeTime = System.currentTimeMillis();
-            this.cause = "heart attack";
-            this.details = "";
-        }
-    }
+    private String lastWrittenName;
 
     @Override
     public String getRule(final int ruleNumber) {
@@ -39,9 +28,9 @@ public final class DeathNoteImpl implements DeathNote {
 
     @Override
     public void writeName(final String name) {
-        if (name == null){
-            throw new NullPointerException("Nome: " + name + " non valido.");
-        }else {
+        if (name == null) {
+            throw new NullPointerException("Nome non può essere nullo.");
+        } else {
             this.notebook.put(name, new DeathData());
             this.lastWrittenName = name;
         }
@@ -54,10 +43,10 @@ public final class DeathNoteImpl implements DeathNote {
         }
         final DeathData data = this.notebook.get(this.lastWrittenName); // Pacchetto dati dell'ultimo nome inserito
         final long timePassed = System.currentTimeMillis() - data.writeTime; // Tempo passato
-        if (timePassed > 40) {
+        if (timePassed > CAUSE_TIMEOUT) {
             return false;
         } else {
-            data.cause = cause;
+            data.setCause(cause);;
             return true;
         }
     }
@@ -69,13 +58,12 @@ public final class DeathNoteImpl implements DeathNote {
         }
         final DeathData data = this.notebook.get(this.lastWrittenName);
         final long timePassed = System.currentTimeMillis() - data.writeTime; 
-        if (timePassed > 6040) {
+        if (timePassed > DETAILS_TIMEOUT) {
             return false;
         } else {
-            data.details = details;
+            data.setDetails(details);;
             return true;
         }
-
     }
 
     @Override
@@ -83,15 +71,15 @@ public final class DeathNoteImpl implements DeathNote {
         if (isNameWritten(name) == false) {
             throw new IllegalArgumentException("Nome non scritto sul deathNote");
         }
-        return this.notebook.get(name).cause;
+        return this.notebook.get(name).getCause();
     }
 
     @Override
     public String getDeathDetails(final String name) {
-        if(isNameWritten(name) == false) {
+        if (isNameWritten(name) == false) {
             throw new IllegalArgumentException("Nome non scritto sul deathNote");
         }
-        return this.notebook.get(name).details;
+        return this.notebook.get(name).getDetails();
     }
 
     @Override
@@ -99,4 +87,35 @@ public final class DeathNoteImpl implements DeathNote {
         return this.notebook.containsKey(name);
     }
 
+    private static class DeathData {
+        private String cause;
+        private String details;
+        private final long writeTime;
+
+        DeathData() {
+            this.writeTime = System.currentTimeMillis();
+            this.cause = "heart attack";
+            this.details = "";
+        }
+
+        String getCause() {
+            return this.cause;
+        }
+
+        String getDetails() {
+            return this.details;
+        }
+
+        long getWriteTime() {
+            return this.writeTime;
+        }
+    
+        void setCause(final String cause) {
+            this.cause = cause;
+        }
+
+        void setDetails(final String details) {
+            this.details = details;
+        }
+    }
 }
