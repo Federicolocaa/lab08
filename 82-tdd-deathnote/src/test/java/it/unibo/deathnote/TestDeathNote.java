@@ -6,10 +6,16 @@ import it.unibo.deathnote.impl.DeathNoteImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TestDeathNote {
 
+    private static final int DETAILS_TIMEOUT = 6100;
+    private static final int CAUSE_TIMEOUT = 100;
     private DeathNote deathNote;
 
     @BeforeEach
@@ -101,11 +107,11 @@ class TestDeathNote {
         final String human = "victim n3";
         deathNote.writeName(human);
 
-        Thread.sleep(100);
+        Thread.sleep(CAUSE_TIMEOUT);
 
         final boolean causeSet = deathNote.writeDeathCause("new cause");
         assertFalse(causeSet, "writeDeathCause dovrebbe ritornare false");
-        assertEquals("Heart Attack", deathNote.getDeathCause(human));
+        assertEquals("heart attack", deathNote.getDeathCause(human));
     }
 
     @Test
@@ -119,7 +125,6 @@ class TestDeathNote {
     void testDefaultDetailsAreEmpty() {
         final String human = "victim n4";
         deathNote.writeName(human);
-        
         assertEquals("", deathNote.getDeathDetails(human));
     }
 
@@ -141,7 +146,7 @@ class TestDeathNote {
         final String human = "victim n6";
         deathNote.writeName(human);
 
-        Thread.sleep(6100);
+        Thread.sleep(DETAILS_TIMEOUT);
 
         final boolean causeDetails = deathNote.writeDetails("new details");
         assertFalse(causeDetails, "writeDetails dovrebbe ritornare false");

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="12.1.1">
+<checkstyle version="12.1.2">
 <file name="/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/82-tdd-deathnote/src/test/java/it/unibo/deathnote/TestDeathNote.java">
-<error line="52" column="9" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="52" column="9" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="52" column="56" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="126" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="148" column="22" severity="error" message="&apos;6100&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 </checkstyle>

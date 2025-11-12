@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-12T10:06:00.867">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-12T11:39:50.993">
+<file name="/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/82-tdd-deathnote/src/main/java/it/unibo/deathnote/impl/DeathNoteImpl.java">
+<violation beginline="17" endline="17" begincolumn="20" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="it.unibo.deathnote.impl" class="DeathNoteImpl" variable="lastWrittenName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'lastWrittenName'.
+</violation>
+<violation beginline="17" endline="17" begincolumn="20" endcolumn="35" rule="RedundantFieldInitializer" ruleset="Performance" package="it.unibo.deathnote.impl" class="DeathNoteImpl" variable="lastWrittenName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'lastWrittenName'
+</violation>
+<violation beginline="20" endline="20" begincolumn="16" endcolumn="21" rule="ImmutableField" ruleset="Design" package="it.unibo.deathnote.impl" class="DeathNoteImpl.DeathData" variable="cause" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'cause' may be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="16" endcolumn="23" rule="ImmutableField" ruleset="Design" package="it.unibo.deathnote.impl" class="DeathNoteImpl.DeathData" variable="details" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'details' may be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="20" endcolumn="29" rule="FieldNamingConventions" ruleset="Code Style" package="it.unibo.deathnote.impl" class="DeathNoteImpl.DeathData" variable="Writetime" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'Writetime' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="43" endline="43" begincolumn="13" endcolumn="78" rule="AvoidThrowingNullPointerException" ruleset="Design" package="it.unibo.deathnote.impl" class="DeathNoteImpl" method="writeName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#avoidthrowingnullpointerexception" priority="1">
+Avoid throwing null pointer exceptions.
+</violation>
+</file>
 </pmd>
