@@ -7,13 +7,11 @@ import javax.swing.JPanel;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.TextField;
+import javax.swing.JTextField;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
-
-import javax.swing.JTextField;
 
 /**
  * This class is a simple application that writes a random number on a file.
@@ -51,6 +49,7 @@ public class MiniGUI {
         write.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(final ActionEvent e) {
+                System.out.println(randomGenerator.nextInt()); //NOPMD
                 result.setText(Integer.toString(randomGenerator.nextInt()));
             }
         });

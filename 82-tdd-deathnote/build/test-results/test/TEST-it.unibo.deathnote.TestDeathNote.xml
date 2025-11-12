@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unibo.deathnote.TestDeathNote" tests="13" skipped="0" failures="13" errors="0" timestamp="2025-11-12T09:05:59.553Z" hostname="Mac.station" time="0.085">
+  <properties/>
+  <testcase name="testSetDetailsWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.047">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeName'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetDetailsWithinTime(TestDeathNote.java:135)
+</failure>
+  </testcase>
+  <testcase name="testWriteName()" classname="it.unibo.deathnote.TestDeathNote" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'isNameWritten'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'isNameWritten'
+	at it.unibo.deathnote.impl.DeathNoteImpl.isNameWritten(DeathNoteImpl.java:49)
+	at it.unibo.deathnote.TestDeathNote.testWriteName(TestDeathNote.java:66)
+</failure>
+  </testcase>
+  <testcase name="testRuleNegativeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.024">
+    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testRuleNegativeThrowsException(TestDeathNote.java:36)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.lambda$testRuleNegativeThrowsException$1(TestDeathNote.java:37)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</failure>
+  </testcase>
+  <testcase name="testSetDetailsBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testSetDetailsBeforeNameThrowsException(TestDeathNote.java:117)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeDetails(DeathNoteImpl.java:31)
+	at it.unibo.deathnote.TestDeathNote.lambda$testSetDetailsBeforeNameThrowsException$4(TestDeathNote.java:118)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</failure>
+  </testcase>
+  <testcase name="testValidRulesAreNotBlank()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'getRule'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.testValidRulesAreNotBlank(TestDeathNote.java:53)
+</failure>
+  </testcase>
+  <testcase name="testDefaultDetailsAreEmpty()" classname="it.unibo.deathnote.TestDeathNote" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeName'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testDefaultDetailsAreEmpty(TestDeathNote.java:125)
+</failure>
+  </testcase>
+  <testcase name="testSetCauseAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeName'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetCauseAfterTimeFails(TestDeathNote.java:106)
+</failure>
+  </testcase>
+  <testcase name="testRuleTooLargeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testRuleTooLargeThrowsException(TestDeathNote.java:44)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.lambda$testRuleTooLargeThrowsException$2(TestDeathNote.java:45)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</failure>
+  </testcase>
+  <testcase name="testDefaultCauseIsHeartAttack()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeName'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testDefaultCauseIsHeartAttack(TestDeathNote.java:87)
+</failure>
+  </testcase>
+  <testcase name="testSetDetailsAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeName'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetDetailsAfterTimeFails(TestDeathNote.java:146)
+</failure>
+  </testcase>
+  <testcase name="testRuleZeroThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testRuleZeroThrowsException(TestDeathNote.java:26)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.lambda$testRuleZeroThrowsException$0(TestDeathNote.java:27)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</failure>
+  </testcase>
+  <testcase name="testSetCauseWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Unimplemented method 'writeName'" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetCauseWithinTime(TestDeathNote.java:95)
+</failure>
+  </testcase>
+  <testcase name="testSetCauseBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002">
+    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testSetCauseBeforeNameThrowsException(TestDeathNote.java:79)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeDeathCause(DeathNoteImpl.java:25)
+	at it.unibo.deathnote.TestDeathNote.lambda$testSetCauseBeforeNameThrowsException$3(TestDeathNote.java:80)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TestDeathNote</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TestDeathNote</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/it.unibo.deathnote.html">it.unibo.deathnote</a> &gt; TestDeathNote</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">13</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.081s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Failed tests</a>
+</li>
+<li>
+<a href="#">Tests</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testDefaultCauseIsHeartAttack()"></a>
+<h3 class="failures">testDefaultCauseIsHeartAttack()</h3>
+<span class="code">
+<pre id="test-message-testDefaultCauseIsHeartAttack()">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testDefaultCauseIsHeartAttack(TestDeathNote.java:87)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testDefaultCauseIsHeartAttack()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testDefaultDetailsAreEmpty()"></a>
+<h3 class="failures">testDefaultDetailsAreEmpty()</h3>
+<span class="code">
+<pre id="test-message-testDefaultDetailsAreEmpty()">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testDefaultDetailsAreEmpty(TestDeathNote.java:125)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testDefaultDetailsAreEmpty()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testRuleNegativeThrowsException()"></a>
+<h3 class="failures">testRuleNegativeThrowsException()</h3>
+<span class="code">
+<pre id="test-message-testRuleNegativeThrowsException()">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testRuleNegativeThrowsException(TestDeathNote.java:36)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.lambda$testRuleNegativeThrowsException$1(TestDeathNote.java:37)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testRuleNegativeThrowsException()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testRuleTooLargeThrowsException()"></a>
+<h3 class="failures">testRuleTooLargeThrowsException()</h3>
+<span class="code">
+<pre id="test-message-testRuleTooLargeThrowsException()">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testRuleTooLargeThrowsException(TestDeathNote.java:44)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.lambda$testRuleTooLargeThrowsException$2(TestDeathNote.java:45)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testRuleTooLargeThrowsException()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testRuleZeroThrowsException()"></a>
+<h3 class="failures">testRuleZeroThrowsException()</h3>
+<span class="code">
+<pre id="test-message-testRuleZeroThrowsException()">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalArgumentException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testRuleZeroThrowsException(TestDeathNote.java:26)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.lambda$testRuleZeroThrowsException$0(TestDeathNote.java:27)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testRuleZeroThrowsException()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testSetCauseAfterTimeFails()"></a>
+<h3 class="failures">testSetCauseAfterTimeFails()</h3>
+<span class="code">
+<pre id="test-message-testSetCauseAfterTimeFails()">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetCauseAfterTimeFails(TestDeathNote.java:106)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testSetCauseAfterTimeFails()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testSetCauseBeforeNameThrowsException()"></a>
+<h3 class="failures">testSetCauseBeforeNameThrowsException()</h3>
+<span class="code">
+<pre id="test-message-testSetCauseBeforeNameThrowsException()">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testSetCauseBeforeNameThrowsException(TestDeathNote.java:79)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'writeDeathCause'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeDeathCause(DeathNoteImpl.java:25)
+	at it.unibo.deathnote.TestDeathNote.lambda$testSetCauseBeforeNameThrowsException$3(TestDeathNote.java:80)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testSetCauseBeforeNameThrowsException()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testSetCauseWithinTime()"></a>
+<h3 class="failures">testSetCauseWithinTime()</h3>
+<span class="code">
+<pre id="test-message-testSetCauseWithinTime()">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetCauseWithinTime(TestDeathNote.java:95)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testSetCauseWithinTime()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testSetDetailsAfterTimeFails()"></a>
+<h3 class="failures">testSetDetailsAfterTimeFails()</h3>
+<span class="code">
+<pre id="test-message-testSetDetailsAfterTimeFails()">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetDetailsAfterTimeFails(TestDeathNote.java:146)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testSetDetailsAfterTimeFails()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testSetDetailsBeforeNameThrowsException()"></a>
+<h3 class="failures">testSetDetailsBeforeNameThrowsException()</h3>
+<span class="code">
+<pre id="test-message-testSetDetailsBeforeNameThrowsException()">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.IllegalStateException&gt; but was: &lt;java.lang.UnsupportedOperationException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:68)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3223)
+	at app//it.unibo.deathnote.TestDeathNote.testSetDetailsBeforeNameThrowsException(TestDeathNote.java:117)
+Caused by: java.lang.UnsupportedOperationException: Unimplemented method 'writeDetails'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeDetails(DeathNoteImpl.java:31)
+	at it.unibo.deathnote.TestDeathNote.lambda$testSetDetailsBeforeNameThrowsException$4(TestDeathNote.java:118)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:54)
+	... 3 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testSetDetailsBeforeNameThrowsException()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testSetDetailsWithinTime()"></a>
+<h3 class="failures">testSetDetailsWithinTime()</h3>
+<span class="code">
+<pre id="test-message-testSetDetailsWithinTime()">java.lang.UnsupportedOperationException: Unimplemented method 'writeName'
+	at it.unibo.deathnote.impl.DeathNoteImpl.writeName(DeathNoteImpl.java:19)
+	at it.unibo.deathnote.TestDeathNote.testSetDetailsWithinTime(TestDeathNote.java:135)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testSetDetailsWithinTime()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testValidRulesAreNotBlank()"></a>
+<h3 class="failures">testValidRulesAreNotBlank()</h3>
+<span class="code">
+<pre id="test-message-testValidRulesAreNotBlank()">java.lang.UnsupportedOperationException: Unimplemented method 'getRule'
+	at it.unibo.deathnote.impl.DeathNoteImpl.getRule(DeathNoteImpl.java:13)
+	at it.unibo.deathnote.TestDeathNote.testValidRulesAreNotBlank(TestDeathNote.java:53)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testValidRulesAreNotBlank()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="testWriteName()"></a>
+<h3 class="failures">testWriteName()</h3>
+<span class="code">
+<pre id="test-message-testWriteName()">java.lang.UnsupportedOperationException: Unimplemented method 'isNameWritten'
+	at it.unibo.deathnote.impl.DeathNoteImpl.isNameWritten(DeathNoteImpl.java:49)
+	at it.unibo.deathnote.TestDeathNote.testWriteName(TestDeathNote.java:66)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testWriteName()">Copy</button>
+</span>
+</div>
+</div>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">testDefaultCauseIsHeartAttack()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testDefaultDetailsAreEmpty()</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testRuleNegativeThrowsException()</td>
+<td class="failures">0.024s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testRuleTooLargeThrowsException()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testRuleZeroThrowsException()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSetCauseAfterTimeFails()</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSetCauseBeforeNameThrowsException()</td>
+<td class="failures">0.002s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSetCauseWithinTime()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSetDetailsAfterTimeFails()</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSetDetailsBeforeNameThrowsException()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSetDetailsWithinTime()</td>
+<td class="failures">0.047s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testValidRulesAreNotBlank()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testWriteName()</td>
+<td class="failures">0.002s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.2.0</a> at 12 Nov 2025, 10:05:59</p>
+</div>
+</div>
+</body>
+</html>
