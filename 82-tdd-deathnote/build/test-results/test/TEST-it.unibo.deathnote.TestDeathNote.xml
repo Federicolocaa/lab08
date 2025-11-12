@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="it.unibo.deathnote.TestDeathNote" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-11-12T11:27:01.763Z" hostname="Mac.station" time="6.29">
+<testsuite name="it.unibo.deathnote.TestDeathNote" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-11-12T11:44:20.241Z" hostname="Mac.station" time="6.276">
   <properties/>
-  <testcase name="testSetDetailsWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.025"/>
-  <testcase name="testWriteName()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
-  <testcase name="testRuleNegativeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
-  <testcase name="testSetDetailsBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
+  <testcase name="testSetDetailsWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.016"/>
+  <testcase name="testWriteName()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
+  <testcase name="testRuleNegativeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
+  <testcase name="testSetDetailsBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
   <testcase name="testValidRulesAreNotBlank()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
   <testcase name="testDefaultDetailsAreEmpty()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
-  <testcase name="testSetCauseAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="0.119"/>
-  <testcase name="testRuleTooLargeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
-  <testcase name="testDefaultCauseIsHeartAttack()" classname="it.unibo.deathnote.TestDeathNote" time="0.015"/>
-  <testcase name="testSetDetailsAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="6.107"/>
-  <testcase name="testRuleZeroThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.004"/>
-  <testcase name="testSetCauseWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
-  <testcase name="testSetCauseBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
+  <testcase name="testSetCauseAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="0.107"/>
+  <testcase name="testRuleTooLargeThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.008"/>
+  <testcase name="testDefaultCauseIsHeartAttack()" classname="it.unibo.deathnote.TestDeathNote" time="0.0"/>
+  <testcase name="testSetDetailsAfterTimeFails()" classname="it.unibo.deathnote.TestDeathNote" time="6.115"/>
+  <testcase name="testRuleZeroThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.005"/>
+  <testcase name="testSetCauseWithinTime()" classname="it.unibo.deathnote.TestDeathNote" time="0.002"/>
+  <testcase name="testSetCauseBeforeNameThrowsException()" classname="it.unibo.deathnote.TestDeathNote" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

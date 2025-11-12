@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-12T12:27:02.482">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-12T12:51:41.493">
 <file name="/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/82-tdd-deathnote/src/main/java/it/unibo/deathnote/impl/DeathNoteImpl.java">
 <violation beginline="32" endline="32" begincolumn="13" endcolumn="74" rule="AvoidThrowingNullPointerException" ruleset="Design" package="it.unibo.deathnote.impl" class="DeathNoteImpl" method="writeName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#avoidthrowingnullpointerexception" priority="1">
 Avoid throwing null pointer exceptions.
-</violation>
-<violation beginline="49" endline="49" begincolumn="34" endcolumn="35" rule="UnnecessarySemicolon" ruleset="Code Style" package="it.unibo.deathnote.impl" class="DeathNoteImpl" method="writeDeathCause" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
-Unnecessary semicolon
-</violation>
-<violation beginline="64" endline="64" begincolumn="38" endcolumn="39" rule="UnnecessarySemicolon" ruleset="Code Style" package="it.unibo.deathnote.impl" class="DeathNoteImpl" method="writeDetails" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_codestyle.html#unnecessarysemicolon" priority="3">
-Unnecessary semicolon
-</violation>
-<violation beginline="71" endline="71" begincolumn="36" endcolumn="41" rule="SimplifyBooleanExpressions" ruleset="Design" package="it.unibo.deathnote.impl" class="DeathNoteImpl" method="getDeathCause" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#simplifybooleanexpressions" priority="3">
-Avoid unnecessary comparisons in boolean expressions
-</violation>
-<violation beginline="79" endline="79" begincolumn="36" endcolumn="41" rule="SimplifyBooleanExpressions" ruleset="Design" package="it.unibo.deathnote.impl" class="DeathNoteImpl" method="getDeathDetails" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#simplifybooleanexpressions" priority="3">
-Avoid unnecessary comparisons in boolean expressions
 </violation>
 </file>
 </pmd>

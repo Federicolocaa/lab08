@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="12.1.2">
 <file name="/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/82-tdd-deathnote/src/main/java/it/unibo/deathnote/impl/DeathNoteImpl.java">
-<error line="14" column="5" severity="error" message="Static variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="15" column="5" severity="error" message="Static variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="49" column="34" severity="error" message="Empty statement." source="com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"/>
-<error line="64" column="38" severity="error" message="Empty statement." source="com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"/>
-<error line="71" column="33" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
-<error line="79" column="33" severity="error" message="Expression can be simplified." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
-<error line="112" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
 <file name="/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/82-tdd-deathnote/src/main/java/it/unibo/deathnote/api/DeathNote.java">
 </file>

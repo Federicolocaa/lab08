@@ -10,9 +10,9 @@ import it.unibo.deathnote.api.DeathNote;
  */
 public final class DeathNoteImpl implements DeathNote {
 
-    private final Map<String, DeathData> notebook = new HashMap<>();
     private static final int CAUSE_TIMEOUT = 40;
     private static final int DETAILS_TIMEOUT = 6040;
+    private final Map<String, DeathData> notebook = new HashMap<>();
 
     // Lo uso per ricordami del nome
     private String lastWrittenName;
@@ -46,7 +46,7 @@ public final class DeathNoteImpl implements DeathNote {
         if (timePassed > CAUSE_TIMEOUT) {
             return false;
         } else {
-            data.setCause(cause);;
+            data.setCause(cause);
             return true;
         }
     }
@@ -61,14 +61,14 @@ public final class DeathNoteImpl implements DeathNote {
         if (timePassed > DETAILS_TIMEOUT) {
             return false;
         } else {
-            data.setDetails(details);;
+            data.setDetails(details);
             return true;
         }
     }
 
     @Override
     public String getDeathCause(final String name) {
-        if (isNameWritten(name) == false) {
+        if (!isNameWritten(name)) {
             throw new IllegalArgumentException("Nome non scritto sul deathNote");
         }
         return this.notebook.get(name).getCause();
@@ -76,7 +76,7 @@ public final class DeathNoteImpl implements DeathNote {
 
     @Override
     public String getDeathDetails(final String name) {
-        if (isNameWritten(name) == false) {
+        if (!isNameWritten(name)) {
             throw new IllegalArgumentException("Nome non scritto sul deathNote");
         }
         return this.notebook.get(name).getDetails();
@@ -109,7 +109,7 @@ public final class DeathNoteImpl implements DeathNote {
         long getWriteTime() {
             return this.writeTime;
         }
-    
+
         void setCause(final String cause) {
             this.cause = cause;
         }
