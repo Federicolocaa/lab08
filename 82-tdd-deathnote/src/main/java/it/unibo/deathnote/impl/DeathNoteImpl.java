@@ -29,7 +29,7 @@ public final class DeathNoteImpl implements DeathNote {
     @Override
     public void writeName(final String name) {
         if (name == null) {
-            throw new NullPointerException("Nome non può essere nullo.");
+            throw new NullPointerException("Nome non può essere nullo."); //NOPMD
         } else {
             this.notebook.put(name, new DeathData());
             this.lastWrittenName = name;
