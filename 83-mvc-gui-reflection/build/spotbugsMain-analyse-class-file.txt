@@ -1,0 +1,16 @@
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/controller/DrawNumberControllerImpl.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/model/DrawNumberImpl.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/model/Configuration$Builder.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/model/Configuration.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberSwingView$1.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberSwingView$3.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberSwingView$4.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberStandardOutputView$1.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberSwingView.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberStandardOutputView.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/view/DrawNumberSwingView$2.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/api/DrawResult.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/api/DrawNumberView.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/api/DrawNumber.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/api/DrawNumberController.class
+/Users/federicolocatelli/Desktop/Visual Studio Code/ProgrammazioneOggetti/lab08/83-mvc-gui-reflection/build/classes/java/main/it/unibo/mvc/LaunchApp.class
